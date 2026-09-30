@@ -2,9 +2,7 @@
 
 An AI-assisted, Markdown-first framework designed to streamline the drafting, tracking, and management of recurring doctoral monitoring reports and bureaucratic milestones throughout your PhD studies.
 
-Originally created for the doctoral procedures at the **Universidad de Granada (UGR)**, this repository is architected as an adaptable, reusable framework for any university or doctoral programme.
-
-Please, note that the documents needed for other institutions may differ. Adapt the repository accordinlgy.
+Currently, this repository is tailored for a specific university—the **Universidad de Granada (UGR)**. However, it can be easily adapted to any other institution by adjusting the templates and configuration. Furthermore, if there is community interest in supporting other universities worldwide, the repository structure can be extended to include pre-defined configurations, catalogs, and templates for other institutions.
 
 ---
 
@@ -79,8 +77,9 @@ Doctoral reporting can be repetitive and fragmented across years. This framework
 
 ## 🛠️ Customization & Adapting to Other Universities
 
-This repository is designed to be easily tailored to your needs:
+While this repository is currently configured for a single university (**UGR**), it can be easily adapted to any other university:
 
 * **Documents to fulfill:** Modify the `## Documents to fulfill` section in [`AGENTS.md`](AGENTS.md) to add, remove, or customize the specific document requirements (e.g., Initial Training Plan, Research Plan, Annual Monitoring Report).
 * **Templates:** Place your university's official template forms (`.doc`, `.pdf`, `.odt`) inside `templates/`. UGR templates are included in this repository as an example. *Note: The agent uses them as structural reference and will never alter binary template files directly.*
 * **Drafting Rules:** Style standards, passive/impersonal voice requirements, and strict anti-AI hallmarks (no em-dashes, no clichés, no filler introductions) are configured in [`AGENTS.md`](AGENTS.md).
+* **Expanding to other universities:** If there is interest from candidates at other universities worldwide, the repository structure can be extended to host pre-defined institutional profiles and catalogs. Feel free to open an issue or pull request to discuss adding official presets for your university.
