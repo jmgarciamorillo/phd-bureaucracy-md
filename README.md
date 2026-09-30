@@ -82,5 +82,5 @@ Doctoral reporting can be repetitive and fragmented across years. This framework
 This repository is designed to be easily tailored to your needs:
 
 * **Documents to fulfill:** Modify the `## Documents to fulfill` section in [`AGENTS.md`](AGENTS.md) to add, remove, or customize the specific document requirements (e.g., Initial Training Plan, Research Plan, Annual Monitoring Report).
-* **Templates:** Place your university's official template forms (`.doc`, `.pdf`, `.odt`) inside `templates/`. *Note: The agent uses them as structural reference and will never alter binary template files directly.*
+* **Templates:** Place your university's official template forms (`.doc`, `.pdf`, `.odt`) inside `templates/`. UGR templates are included in this repository as an example. *Note: The agent uses them as structural reference and will never alter binary template files directly.*
 * **Drafting Rules:** Style standards, passive/impersonal voice requirements, and strict anti-AI hallmarks (no em-dashes, no clichés, no filler introductions) are configured in [`AGENTS.md`](AGENTS.md).
