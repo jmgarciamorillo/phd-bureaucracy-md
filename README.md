@@ -83,3 +83,9 @@ While this repository is currently configured for a single university (**UGR**),
 * **Templates:** Place your university's official template forms (`.doc`, `.pdf`, `.odt`) inside `templates/`. UGR templates are included in this repository as an example. *Note: The agent uses them as structural reference and will never alter binary template files directly.*
 * **Drafting Rules:** Style standards, passive/impersonal voice requirements, and strict anti-AI hallmarks (no em-dashes, no clichés, no filler introductions) are configured in [`AGENTS.md`](AGENTS.md).
 * **Expanding to other universities:** If there is interest from candidates at other universities worldwide, the repository structure can be extended to host pre-defined institutional profiles and catalogs. Feel free to open an issue or pull request to discuss adding official presets for your university.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
